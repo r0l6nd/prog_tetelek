@@ -11,6 +11,7 @@
     <div>
         <h3>A tömb tartalma: <span id="tomb-elemei"></span></h3>
         <button onclick="tombKiir()">Tömb elemei</button>
+        <button onclick="rendez()">Rendezés növekvő sorrendbe</button>
     </div>
 
     <div>
@@ -28,8 +29,27 @@
         <button onclick="kivalasztas(37)">Keres</button>
     </div>
 
+    <div>
+        <h2>A tömbben a 70 vagy annál nagyobb számok száma: <span id="db"></span></h2>
+        <button onclick="megszamol()">Megszámol</button>
+    </div>
+
+    <div>
+        <h2>Van negatív elem a tömbben? <span id="eldont"></span></h2>
+        <button onclick="eldontes()">Eldönt</button>
+    </div>
+
+    <div>
+        <h2>Páros elemek kiválogatva <span id="parosak"></span></h2>
+        <button onclick="kivalogatas()">Kivlogatás</button>
+    </div>
+
     <script src="js/tomb.js"></script>
     <script src="js/osszegzes.js"></script>
     <script src="js/kivalasztasok.js"></script>
+    <script src="js/megszamlalas.js"></script>
+    <script src="js/eldontes.js"></script>
+    <script src="js/kivalogatas.js"></script>
+    <script src="js/rendezes.js"></script>
 </body>
 </html>
